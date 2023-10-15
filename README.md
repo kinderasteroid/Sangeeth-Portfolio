@@ -8,7 +8,7 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 ------------------------        
 |⚠️ UPCOMMING WORK ⚠️ |
 |----------------------|
-|  1.UI/UX             |
+|  1.UI/UX Design      |
 |  2.Landing Page      |
 
 |✅    Completed   ✅ |

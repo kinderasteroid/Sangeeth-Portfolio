@@ -29,5 +29,6 @@ We appreciate your contributions and look forward to working with you to make Sa
 
 <hr>
 
-Thank you for your support!💓
-Don't Forget to ⭐ if you really liked the portfolio
+<div align="center">
+  Thank you for your support!💓
+Don't Forget to ⭐ if you really liked the portfolio </div>

@@ -3,17 +3,18 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 
 - Contributors are Most Welcome. Do Mail me @ `bhandarysuhas7@gmail.com` / Fork the Repo and Make pull requests.
 
-
+## Work Status
 
 ------------------------        
 |⚠️ UPCOMMING WORK ⚠️ |
 |----------------------|
-|  1.UI/UX Design      |
-|  2.Landing Page      |
+|  1.Landing Page (ing)|
+|  2.Events Page       |
 
 |✅    Completed   ✅ |
 |----------------------|
 |  1.Django Setup      |
+|  2.UI/UX -Landing Page|
 ------------------------
 
 

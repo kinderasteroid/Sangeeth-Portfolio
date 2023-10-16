@@ -27,5 +27,7 @@ Be respectful and considerate of others in your interactions within the project.
 
 We appreciate your contributions and look forward to working with you to make Sangeeth Portfolio even better!
 
+<hr>
+
 Thank you for your support!💓
 Don't Forget to ⭐ if you really liked the portfolio

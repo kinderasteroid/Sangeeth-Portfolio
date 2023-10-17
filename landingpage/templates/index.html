@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page using HTML, CSS & Javascript</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="{% static './css/style.css' %}" />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <!-- <link
+      href="{% static 'https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css' %}"
+      rel="stylesheet"
+    /> -->
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <!-- <link href="{% static 'https://unpkg.com/aos@2.3.1/dist/aos.css' %}" rel="stylesheet" /> -->
+  </head>
+  <body>
+    
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">
+        <div class="logo">
+          <h2>Sangeeth Group.</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">Home</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">About</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">Events</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading" style="color: white;font-weight: 600;">
+              Welcome to <span style="font-size: 70px;width: 900%;">Sangeeth Group</span>
+              
+            </h1>
+            <p class="info-text">
+              Sangeeth Group is a talented ensemble of musicians and vocalists who are passionate about creating unforgettable musical experiences. With a diverse repertoire that spans various genres, they cater to a wide range of musical tastes and preferences. From soulful melodies to foot-tapping beats, this band has something for everyone
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                Register Here <i class="ri-arrow-right-line"></i>
+              </button>
+
+              <button class="btn documentation_btn">Documentation</button>
+            </div>
+          </div>
+          <div class="grid-item-2">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <footer></footer>
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="{% static './script.js' %}" ></script>
+    <!-- <script src="{% static 'https://unpkg.com/aos@2.3.1/dist/aos.js' %}"></script> -->
+    <!-- ==== GSAP CDN ==== -->
+    <!-- <script src="{% static 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js' %}"></script> -->
+    <!-- ==== SCRIPT.JS ==== -->
+    
+  </body>
+</html>

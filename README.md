@@ -10,6 +10,7 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 |----------------------|
 | 1.Events Page ui/ux|
 |  2.Events Page       |
+|   3.Database Design For Events (Name,Email) |
 
 |✅    Completed   ✅ |
 |----------------------|

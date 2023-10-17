@@ -8,13 +8,14 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 ------------------------        
 |⚠️ UPCOMMING WORK ⚠️ |
 |----------------------|
-|  1.Landing Page (ing)|
+| 1.Events Page ui/ux|
 |  2.Events Page       |
+|   3.Database Design For Events (Name,Email) |
 
 |✅    Completed   ✅ |
 |----------------------|
 |  1.Django Setup      |
-|  2.UI/UX -Landing Page|
+|  2.Landing page-Deployed|
 ------------------------
 
 

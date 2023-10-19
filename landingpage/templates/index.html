@@ -36,13 +36,13 @@
 
           <ul class="nav_menu_list">
             <li class="nav_menu_item">
-              <a href="#" class="nav_menu_link">Home</a>
+              <a href="{% url 'home' %}" class="nav_menu_link">Home</a>
             </li>
             <li class="nav_menu_item">
               <a href="#" class="nav_menu_link">About</a>
             </li>
             <li class="nav_menu_item">
-              <a href="#" class="nav_menu_link">Events</a>
+              <a href="{% url 'event' %}" class="nav_menu_link">Events</a>
             </li>
             <li class="nav_menu_item">
               <a href="#" class="nav_menu_link">Contact</a>
@@ -69,9 +69,9 @@
             </p>
 
             <div class="btn_wrapper">
-              <button class="btn view_more_btn">
+              <a href ="{% url 'event' %}""> <button class="btn view_more_btn">
                 Register Here <i class="ri-arrow-right-line"></i>
-              </button>
+              </button></a><
 
               <button class="btn documentation_btn">Documentation</button>
             </div>

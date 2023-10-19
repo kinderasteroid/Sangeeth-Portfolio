@@ -2,7 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.members, name='home'),
-    
-    
+    path('', views.members, name='event'),
 ]

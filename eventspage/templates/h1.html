@@ -1,0 +1,84 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header class="container header">
+        <!-- ==== NAVBAR ==== -->
+        <nav class="nav">
+          <div class="logo">
+            <h2 style="position: relative;left:-600px;">Sangeeth Group.</h2>
+          </div>
+  
+            <ul class="nav_menu_list">
+              <li class="nav_menu_item">
+                <a href="{% url 'home' %}" class="nav_menu_link">Home</a>
+              </li>
+              <li class="nav_menu_item">
+                <a href="#" class="nav_menu_link">About</a>
+              </li>
+              <li class="nav_menu_item">
+                <a href="{% url 'event' %}" class="nav_menu_link">Events</a>
+              </li>
+              <li class="nav_menu_item">
+                <a href="#" class="nav_menu_link">Contact</a>
+              </li>
+            </ul>
+          </div>
+  
+          <button class="toggle_btn" id="toggle_btn">
+            <i class="ri-menu-line"></i>
+          </button>
+        </nav>
+      </header>
+  
+    <div class="container">
+        <div class="event-card">
+            <div class="event-image">
+                <img src="{% static 'event1.jpg' %}" alt="Event 1">
+            </div>
+            <div class="event-info">
+                <h2>Sangeeth Session 5:Welcome Kadri </h2><br>
+                <p>Date: July 1, 2023</p>
+                <p>Location: Sangeeth Studio </p>
+                <p>Description: Session 5 was all about welcomming our new band member,Shreyas Kadri</p>
+                <a href="#" class="register-button" style="background-color: red;">Over</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-image">
+                <img src="{% static 'event2.jpeg' %}" alt="Event 1">
+            </div>
+            <div class="event-info">
+                <h2>Sangeeth Session 6:Oggy and Cockroach</h2>
+                <p>Date: July 1, 2023</p>
+                <p>Location: Sangeeth Studio </p>
+                <p>Description: Session 6 was the one which has highest participants till date and longest</p>
+                <a href="#" class="register-button" style="background-color: red;">Over</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-image">
+                <img src="{% static 'event3.jpg' %}" alt="Event 1">
+            </div>
+            <div class="event-info">
+                <h2>Sangeeth Session 7: TBD</h2>
+                <p>Date: TBD</p>
+                <p>Location: Sangeeth Studio </p>
+                <p>Description: TBD</p>
+                <br>
+                <!-- <P style="color: blue;">Link Will be available Soon,Stay Tuned</P> -->
+                <a href="#" class="register-button" >Register</a>
+            </div>
+        </div>
+        
+        
+        <!-- Repeat the above event-card structure for other events -->
+    </div>
+</body>
+</html>

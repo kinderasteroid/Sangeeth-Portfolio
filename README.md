@@ -6,7 +6,7 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 ## Work Status
 
 ------------------------        
-|⚠️ UPCOMMING WORK ⚠️ |
+|⚠️ ONGOING WORK ⚠️ |
 |----------------------|
 |   1.Registration Page( Events App  )        |
 |   2.Database Schema Design (Name,Email) |

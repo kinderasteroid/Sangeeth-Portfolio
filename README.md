@@ -6,16 +6,16 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 ## Work Status
 
 ------------------------        
-|⚠️ UPCOMMING WORK ⚠️ |
+|⚠️ ONGOING WORK ⚠️ |
 |----------------------|
-| 1.Events Page ui/ux|
-|  2.Events Page       |
-|   3.Database Design For Events (Name,Email) |
+|   1.Registration Page-Deploy        |
+|   2.Database Schema Design (Name,Email) |
 
 |✅    Completed   ✅ |
 |----------------------|
-|  1.Django Setup      |
-|  2.Landing page-Deployed|
+|  1.Landing page-Deployed|
+|  2.Events-Page Deployed |
+|1.Registration Page( Design  ) |
 ------------------------
 
 

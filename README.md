@@ -8,13 +8,14 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 ------------------------        
 |⚠️ ONGOING WORK ⚠️ |
 |----------------------|
-|   1.Registration Page( Events App  )        |
+|   1.Registration Page-Deploy        |
 |   2.Database Schema Design (Name,Email) |
 
 |✅    Completed   ✅ |
 |----------------------|
 |  1.Landing page-Deployed|
 |  2.Events-Page Deployed |
+|1.Registration Page( Design  ) |
 ------------------------
 
 

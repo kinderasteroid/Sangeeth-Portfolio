@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Professional Form</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1 style="color: #da0971;position: absolute; top: 0%;font-size: 40px;">Sangeeth Group.</h1>
+    <div class="form-container">
+        <h1>Registration Form</h1>
+        <form action="" method="get" onsubmit="showPopup();return false;">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="session">Session</label>
+                <select id="session" name="session" disabled>
+                    <option value="morning">Sangeeth Session 7</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terms" required>
+                <label for="terms" style="font-size: 10px;color: rgb(207, 200, 200);">I accept the Terms and Conditions of Sangeeth Group and will obey all the rules and regulations set forth by the Band.I also acknowledge that any violation of these terms and conditions may result in disciplinary action, including termination of my membership with the band.</label>
+            </div>
+            <div class="form-group">
+                <button type="submit" style="display: block;margin: 0 auto;">Submit</button>
+            </div>
+        </form>
+    </div>
+   
+    <script>
+        
+        function showPopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "block";
+    
+}
+
+function closePopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "none";
+    var externalAppURL = 'http://127.0.0.1:8000/home/';
+    window.location.href = externalAppURL;
+}
+
+    </script>
+     <div id="popup" class="popup"  style="display: none;" >
+        <div class="popup-content">
+            <h2 style="color:#a30e8d;">Form Submitted</h2>
+            <p>Thank you for submitting the form.You Will Shortly Hear From Us!</p>
+            <p style="font-size: 15px;color: gainsboro;">Kindly Check Your Mail</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -11,6 +11,7 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 |   1.SMTP AND IMAP Conf      |
 |   2.Database Schema Design (Name,Email) |
 | 3.NGINX Proxy Conf|
+|4. Create Deployment Instance (EC2/Beanstalk)|
 
 |✅    Completed   ✅ |
 |----------------------|

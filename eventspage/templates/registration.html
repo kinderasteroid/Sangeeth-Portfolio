@@ -14,7 +14,7 @@
     <h1 style="color: #da0971;position: absolute; top: 0%;font-size: 40px;">Sangeeth Group.</h1>
     <div class="form-container">
         <h1>Registration Form</h1>
-        <form action="" method="get" onsubmit="showPopup();return false;">
+        <form action="{% url 'reg' %}" method="get" onsubmit="">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
@@ -35,16 +35,24 @@
                 <label for="terms" style="font-size: 10px;color: rgb(207, 200, 200);">I accept the Terms and Conditions of Sangeeth Group and will obey all the rules and regulations set forth by the Band.I also acknowledge that any violation of these terms and conditions may result in disciplinary action, including termination of my membership with the band.</label>
             </div>
             <div class="form-group">
-                <button type="submit" style="display: block;margin: 0 auto;">Submit</button>
+                <button type="submit" style="display: block;margin: 0 auto;" onclick="showPopup();">Submit</button>
             </div>
         </form>
     </div>
    
     <script>
         
+        var shouldShowPopup = true; 
         function showPopup() {
     var popup = document.getElementById("popup");
     popup.style.display = "block";
+    var intervalId = setInterval(function () {
+        if (!shouldShowPopup) {
+            clearInterval(intervalId); // Stop the interval
+            closePopup();
+        }
+    }, 1000); // Check every second
+  
     
 }
 
@@ -54,6 +62,9 @@ function closePopup() {
     var externalAppURL = 'http://127.0.0.1:8000/home/';
     window.location.href = externalAppURL;
 }
+function closePopupManually() {
+  shouldShowPopup = false; // Set shouldShowPopup to false to close the popup
+}
 
     </script>
      <div id="popup" class="popup"  style="display: none;" >
@@ -61,7 +72,7 @@ function closePopup() {
             <h2 style="color:#a30e8d;">Form Submitted</h2>
             <p>Thank you for submitting the form.You Will Shortly Hear From Us!</p>
             <p style="font-size: 15px;color: gainsboro;">Kindly Check Your Mail</p>
-            <button onclick="closePopup()">Close</button>
+            <button onclick="closePopupManually()">Close</button>
         </div>
     </div>
 </body>

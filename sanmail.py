@@ -17,7 +17,7 @@ def sendmail(name,email,date,date1,day,year):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587  # You might need to change this port based on your email provider
     smtp_username = "sangeethgroupofc@gmail.com"
-    smtp_password = "dlot fjwk viur srah"
+    smtp_password = ""
     # Create a message object
     message = MIMEMultipart()
     message["From"] = f"{sender_name} <{sender_email}>"

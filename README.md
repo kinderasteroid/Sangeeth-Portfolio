@@ -8,15 +8,17 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 ------------------------        
 |⚠️ ONGOING WORK ⚠️ |
 |----------------------|
-|   1.Registration Page-Deploy        |
-|   2.Database Schema Design (Name,Email) |
+|1.Database Schema Design (Name,Email) |
+| 2.NGINX Proxy Conf|
+|3. Create Deployment Instance (EC2/Beanstalk)|
 
 |✅    Completed   ✅ |
 |----------------------|
-|  1.Landing page-Deployed|
-|  2.Events-Page Deployed |
-|1.Registration Page( Design  ) |
+|  1.SMTP AND IMAP Conf   |
+|  2.Landing and Events-Page Deployed |
+|3.Registration Page ||
 ------------------------
+
 
 
 ## Getting Help

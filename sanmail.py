@@ -17,7 +17,7 @@ def sendmail(name,email,date,date1,day,year):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587  # You might need to change this port based on your email provider
     smtp_username = "sangeethgroupofc@gmail.com"
-    smtp_password = ""
+    smtp_password = "dlot fjwk viur srah"
     # Create a message object
     message = MIMEMultipart()
     message["From"] = f"{sender_name} <{sender_email}>"
@@ -957,7 +957,7 @@ def sendmail(name,email,date,date1,day,year):
             margin-left:0cm;line-height:14.4pt'><span style='mso-bookmark:_MailOriginal'><span
             style='font-size:12.0pt;font-family:"Arial",sans-serif;color:white'>We
             are delighted to extend a warm invitation to you for our upcoming
-            event, Sangeeth Session 6, where we promise an afternoon filled with
+            event, Sangeeth Session 7, where we promise an afternoon filled with
             music, culture, and entertainment.<o:p></o:p></span></span></p>
             <p style='margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;
             margin-left:0cm;line-height:14.4pt'><span style='mso-bookmark:_MailOriginal'><span

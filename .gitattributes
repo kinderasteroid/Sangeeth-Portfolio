@@ -2,7 +2,6 @@
 
 *.conf linguist-detectable
 
-*.css linguist-detectable=false
 *.js linguist-detectable=false
 
 *.yml linguist-detectable

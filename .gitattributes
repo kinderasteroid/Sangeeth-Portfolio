@@ -2,4 +2,6 @@
 
 *.conf linguist-detectable
 
-*.js linguist-language=JavaScript;linguist-vendored-percentage=10
+*.css linguist-vendored=false
+*.js linguist-vendored=false
+

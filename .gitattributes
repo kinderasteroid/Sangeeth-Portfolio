@@ -1,3 +1,5 @@
 *.yml linguist-detectable
 
 *.conf linguist-detectable
+
+*.js linguist-language=Javascript:10%

@@ -3,9 +3,3 @@ Procfile linguist-detectable
 
 *.conf linguist-detectable
 
-*.js linguist-detectable=false
-
-*.yml linguist-detectable
-
-*.conf linguist-detectable
-

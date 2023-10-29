@@ -1,4 +1,4 @@
-Procfile linguist-detectable
+
 *.yml linguist-detectable
 
 *.conf linguist-detectable

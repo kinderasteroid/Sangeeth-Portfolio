@@ -1,7 +1,11 @@
+Procfile linguist-detectable
 *.yml linguist-detectable
 
 *.conf linguist-detectable
 
-*.css linguist-vendored=false
-*.js linguist-vendored=false
+*.js linguist-detectable=false
+
+*.yml linguist-detectable
+
+*.conf linguist-detectable
 

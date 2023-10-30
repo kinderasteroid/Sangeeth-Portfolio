@@ -13,8 +13,8 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
     
 |⚠️ ONGOING WORK ⚠️ |
 |----------------------|
-| 1.NGINX and Gunicorn Proxy Conf|
-|2. Create Deployment Instance 🔑|
+| 1 Deploying on Render (Tentative)|
+
 
 |✅    Completed   ✅ |
 |----------------------|

@@ -31,9 +31,9 @@ def reg(request):
     Send in String Format
 
     '''
-    date = 'November 3'
-    date1 = 'November 3rd'
-    Day = 'Friday'
+    date = 'November 16'
+    date1 = 'November 16th'
+    Day = 'Thursday'
     year = '2023'
     sendmail(name,email,date,date1,Day,year)
     time.sleep(300)

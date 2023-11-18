@@ -35,6 +35,9 @@ body::before {
     
    
   }
+  .logo h2{
+    position: relative;left:-600px;
+  }
   
   /* ==== NAV ==== */
   .nav {
@@ -149,4 +152,64 @@ p {
 
 .register-button:hover {
     background-color: #0056b3;
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f255;
+    background-image: url('back1.avif');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body::before {
+ 
+  height: 1650px;
+ 
+}
+
+
+  .nav {
+    position: absolute;
+     left: 0;
+  }
+  .logo{
+    position: absolute;
+    left :0;
+  }
+  .logo h2 {
+    font-size: 40px;
+    left: 95px;
+}
+  .nav_menu_list {
+      display: none;
+      left: 100px;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 20px;
+  }
+
+  .nav_menu_list .nav_menu_item {
+      margin: 0;
+      margin-bottom: 10px;
+  }
+
+  .container {
+      max-width: 100%;
+      padding: 10px;
+  }
+
+  .event-card {
+      left:  100px;
+      margin: 20px 0;
+  }
+
+  .nav_menu_list {
+      left: 0;
+  }
+
+  .toggle_btn {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+  }
 }

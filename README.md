@@ -5,11 +5,16 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 
 ## Work Status
 
-------------------------        
+
+|       Legend       |
+|-----------------------|
+|🔑 -> External Help Needed|
+
+    
 |⚠️ ONGOING WORK ⚠️ |
 |----------------------|
-| 1.NGINX Proxy Conf|
-|2. Create Deployment Instance (EC2/Beanstalk)|
+| 1 Deploying on Render (Tentative)|
+
 
 |✅    Completed   ✅ |
 |----------------------|
@@ -19,6 +24,10 @@ A dynamic website showcasing the Sangeeth Group's upcoming and past events, with
 ------------------------
 
 
+### To Run
+```
+sh autorun.sh
+```
 
 ## Getting Help
 If you have any questions or need assistance, please feel free to open an issue or reach out to the project maintainers.
